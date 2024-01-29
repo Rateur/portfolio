@@ -103,6 +103,25 @@ section{
     align-items: center;
 }
 
+.hidden{
+    display: none !important;
+}
+
+.sec-padding{
+    padding: 80px 0;
+}
+/* Section Titre */
+.section-title{
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-title h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
 /* Custom Scrollbar */
 ::-webkit-scrollbar{
     width: 5px;
@@ -203,4 +222,23 @@ Home Section
 .home-img .img-box img{
     width: 100%;
     border-radius: 50%;
+}
+
+/* A propos */
+.about-img{
+    width: 40%;
+    padding: 0 15px;
+}
+
+.about-text{
+    width: 60%;
+    padding: 0 15px;
+}
+
+.about-img .img-box{
+    background-color: var(--white-alpha-25);
+    max-width: 380px;
+    border: 1px solid var(--white-alpha-40);
+    margin: auto;
+    border-radius: 10px;
 }
