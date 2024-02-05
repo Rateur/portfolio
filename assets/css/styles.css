@@ -257,7 +257,14 @@ section.fade-out{
     justify-content: center;
     margin: 0 15px;
     z-index: 1;
+    transition: opacité 0.5s ease-in-out;
 }
+
+.header .nav-toggler.hide{
+    opacity: 0;
+    transition: none;
+}
+
  .header .nav-toggler span{
     height: 2px;
     width: 24px;

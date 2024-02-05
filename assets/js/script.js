@@ -17,7 +17,27 @@ function toggleNavBar(){
 /* ------------------------ Active Sections --------------------------- */
 
 document.addEventListener("click", (e) =>{
-    if
+    if(e.target.classList.contains("link-item") && e.target.hash !== ""){
+        navTogger.classList.add("hide")
+        if(e.target.classList.contains("nav-item")){
+            toggleNavBar();
+        }
+        else{
+            hideSection();
+            document.body.classList.remove("hide-scrolling");
+        }
+        setTimeout(() =>{
+            document.querySelector("section.active").classList.remove("active", "fade-out");
+            document.querySelector(e.target.hash).classList.add("active");
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth' // Ajoutez cette option pour un défilement en douceur
+            });
+            document.body.classList.remove("hide-scrolling");
+            navTogger.classList.remove("hide")
+        },500)
+    }
 });
 
 /* ------------------------ About Tabs --------------------------- */
