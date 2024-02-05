@@ -12,8 +12,31 @@
     <!-- Main start -->
     <div class="main">
 
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <nav class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Accueil</a></li>
+                                <li><a href="#about" class="nav-item link-item">A propos</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contactez moi</a></li>
+                            </ul>
+                        </nav>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+
         <!-- Home section Start -->
-        <section class="home-section align-items-center hidden">
+        <section class="home-section align-items-center active" id="home">
             <div class="container">
                 <div class="contaner">
                     <div class="row align-items-center">
@@ -21,14 +44,14 @@
                             <p>Salut, je suis</p>
                             <h1>Valentin PÉRIÈS</h1>
                             <h2>Webdesigner & photographe</h2>
-                            <a href="#" class="btn">A propos</a>
-                            <a href="#" class="btn">Portfolio</a>
+                            <a href="#about" class="btn link-item">A propos</a>
+                            <a href="#portfolio" class="btn link-item">Portfolio</a>
                         </div>
                         <div class="home-img">
                             <div class="img-box">
                                 <img src="assets/img/profil-img.png" alt="">
                             </div>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -36,7 +59,7 @@
         <!-- Home section End -->
 
         <!-- A propos Section Start -->
-        <section class="about-section sec-padding hidden">
+        <section class="about-section sec-padding" id="about">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -136,8 +159,8 @@
                     </div>
                     <!-- Expériences End -->
 
-                    <a href="#"class="btn">Télécharger mon CV</a>
-                    <a href="#"class="btn">Contactez-moi</a>
+                    <a href="#" target="_blank" class="btn">Télécharger mon CV</a>
+                    <a href="#contact" class="btn link-item">Contactez-moi</a>
 
                 </div>
             </div>
@@ -145,7 +168,7 @@
         <!-- A propos Section End -->
 
         <!-- Portfolio Section Start -->
-        <section class="portfolio-section sec-padding">
+        <section class="portfolio-section sec-padding" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -306,6 +329,56 @@
             </div>
         </section>
         <!-- Portfolio Section End -->
+
+        <!-- Contact Section Start -->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contactez moi</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Entre ton nom" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Entre ton courriel ;)" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Entre ton sujet / titre" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Parle-moi le plus en détail possible de ton projet pour que je puisse te proposer une solution adapté"
+                                    class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Envoyer un message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>valentinperies007@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Mes réseaux</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/valentin-peries-4624a622a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/Rateur" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/valentin.peries/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section Start -->
 
     </div>
     <!-- Main End -->

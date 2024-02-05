@@ -1,5 +1,25 @@
 
 
+/* ------------------ Toggle Navbar ------------------ */
+const navTogger = document.querySelector('.nav-toggler');
+navTogger.addEventListener("click", () =>{
+    hideSection();
+    toggleNavBar();
+    document.body.classList.toggle("hide-scrolling")
+});
+function hideSection(){
+    document.querySelector("section.active").classList.toggle("fade-out")
+}
+function toggleNavBar(){
+    document.querySelector(".header").classList.toggle("active");
+}
+
+/* ------------------------ Active Sections --------------------------- */
+
+document.addEventListener("click", (e) =>{
+    if
+});
+
 /* ------------------------ About Tabs --------------------------- */
 const tabsContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector(".about-section");
@@ -46,3 +66,4 @@ function portfolioItemsDetails(portfolioItem){
     document.querySelector(".pp-body").innerHTML =
     portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
+
