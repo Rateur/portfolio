@@ -18,6 +18,8 @@ function toggleNavBar(){
 
 document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("link-item") && e.target.hash !== ""){
+        // activate the overlay to prevenvent multiple clicks
+        document.querySelector(".overlay").classList.add("active");
         navTogger.classList.add("hide")
         if(e.target.classList.contains("nav-item")){
             toggleNavBar();
@@ -36,6 +38,7 @@ document.addEventListener("click", (e) =>{
             });
             document.body.classList.remove("hide-scrolling");
             navTogger.classList.remove("hide")
+            document.querySelector(".overlay").classList.remove("active");
         },500)
     }
 });
