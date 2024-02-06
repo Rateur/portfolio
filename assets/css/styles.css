@@ -1,7 +1,7 @@
 /* ---------------
 Fonts
 ------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 /* ---------------
 Variables
@@ -39,7 +39,7 @@ body{
     background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
     background-attachment: fixed;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 300;
     color: var(--blue-dark);
     line-height: 1.5;
@@ -280,7 +280,7 @@ section.fade-out{
 .bg-circles .circle-2{
     height: 80px;
     width: 80px;
-    background-color: var(--main-color);
+    background-color: #e89626;
     left: 30%;
     top: 50%;
     opacity: 0.4;
@@ -290,7 +290,7 @@ section.fade-out{
 .bg-circles .circle-3{
     height: 120px;
     width: 120px;
-    background-color: var(--white);
+    background-color: #e46d6d;
     top: 40%;
     right: -60px;
     opacity: 0.6;
@@ -299,7 +299,7 @@ section.fade-out{
 .bg-circles .circle-4{
     height: 50px;
     width: 50px;
-    background-color: var(--orange);
+    background-color: #c79dff;
     top: 80%;
     left: -30px;
     opacity: 0.6;
