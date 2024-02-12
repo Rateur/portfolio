@@ -148,9 +148,12 @@ section.fade-out{
 
 .section-title h2{
     font-size: 40px;
-    text-transform: capitalize;
     margin-bottom: 40px;
 }
+
+.section-title h2::first-letter {
+    text-transform: capitalize;
+  }
 /* Custom Scrollbar */
 ::-webkit-scrollbar{
     width: 5px;
@@ -504,7 +507,6 @@ section.fade-out{
 
  .header .nav-inner ul li a{
     font-size: 40px;
-    text-transform: capitalize;
     color: var(--blue-dark);
     display: block;
     font-weight: 500;
@@ -512,6 +514,10 @@ section.fade-out{
     transition: color 0.3s ease;
     position: relative;
  }
+
+ .header .nav-inner ul li a::first-letter {
+    text-transform: capitalize;
+  }
 
  .header .nav-inner ul li a::before{
     content: '';
@@ -553,15 +559,21 @@ Home Section
 
 .home-text h1{
     font-size: 50px;
-    text-transform: capitalize;
 }
+
+.home-text h1::first-letter {
+    text-transform: capitalize;
+  }
 
 .home-text h2{
     font-size: 20px;
-    text-transform: capitalize;
     font-weight: 300;
     margin: 0 0 30px;
 }
+
+.home-text h2::first-letter {
+    text-transform: capitalize;
+  }
 
 .home-text .btn{
     margin: 0 15px 15px 0;
@@ -605,10 +617,13 @@ Home Section
 }
 
 .about-text h3{
-    text-transform: capitalize;
     font-size: 20px;
     margin: 20px 0;
 }
+
+.about-text h3::first-letter {
+    text-transform: capitalize;
+  }
 
 .about-text .skills{
     display: flex;
@@ -619,10 +634,13 @@ Home Section
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     padding: 2px 15px;
-    text-transform: capitalize;
     margin: 0 10px 10px 0;
     border-radius: 20px;
 }
+
+.about-text .skill-item::first-letter {
+    text-transform: capitalize;
+  }
 
 .about-tabs{
     margin-top: 20px;
@@ -632,7 +650,6 @@ Home Section
     padding: 2px 0;
     background-color: transparent;
     border: none;
-    text-transform: capitalize;
     display: inline-block;
     color: var(--blue-dark);
     font-size: 20px;
@@ -643,6 +660,10 @@ Home Section
     opacity: 0.5;
     transition: all 0.3s ease;
 }
+
+.about-tabs .tab-item::first-letter {
+    text-transform: capitalize;
+  }
 
 .about-tabs .tab-item:last-child{
     margin: 0;
@@ -727,9 +748,12 @@ Home Section
 
 .about-text .timeline-item h4{
     font-size: 18px;
-    text-transform: capitalize;
     margin: 0 0 10px;
 }
+
+.about-text .timeline-item h4::first-letter {
+    text-transform: capitalize;
+  }
 
 .about-text .timeline-item h4 span{
     font-weight: 400;
@@ -769,11 +793,13 @@ Portfolio Section
 
 .portfolio-item h3{
     font-size: 20px;
-    text-transform: capitalize;
     margin: 20px 0;
 
 }
 
+.portfolio-item h3::first-letter {
+    text-transform: capitalize;
+  }
 /* ---------------
 Portfolio Popup
 ------------------*/
@@ -841,9 +867,12 @@ Portfolio Popup
 
 .pp-header h3{
     font-size: 25px;
-    text-transform: capitalize;
     margin: 20px 0 15px;
 }
+
+.pp-header h3::first-letter {
+    text-transform: capitalize;
+  }
 
 .pp-body .description{
     margin-bottom: 20px;
@@ -853,8 +882,11 @@ Portfolio Popup
 .pp-body .general-info li{
     margin-bottom: 10px;
     font-weight: 500;
-    text-transform: capitalize;
 }
+
+.pp-body .general-info li::first-letter {
+    text-transform: capitalize;
+  }
 
 .pp-body .general-info li span{
     font-weight: 300;
@@ -918,9 +950,12 @@ Contact Section
 
 .contact-info-item h3{
     font-size: 20px;
-    text-transform: capitalize;
     margin: 0 0 5px;
 }
+
+.contact-info-item h3::first-letter {
+    text-transform: capitalize;
+  }
 
 .contact-info-item .social-links a{
     display: inline-flex;
