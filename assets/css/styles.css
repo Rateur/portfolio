@@ -522,10 +522,6 @@ section.fade-out{
     transition: width 0.5s ease;
  }
 
- .header .nav-inner ul li a:hover::before{
-    width: 100%;
- }
-
  .header .nav-inner ul li a:hover{
     color: var(--main-color);
  }
@@ -848,6 +844,7 @@ Portfolio Popup
 
 .pp-body .description{
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .pp-body .general-info li{
