@@ -7,13 +7,13 @@ Fonts
 Variables
 ------------------*/
 :root{
-    --main-color: #ffb856;
+    --main-color: #dfd1bb;
     --blue: #007ce9;
     --blue-dark: #ebebf8;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --pink-light: #e96423  ;
-    --cyan-light: #227BAE  ;
+    --pink-light: #241832  ;
+    --cyan-light: #761b2a  ;
     --white: #d05e3b;
     --white-alpha-40: rgba(255, 255, 255, 0.13);
     --white-alpha-25:rgba(255, 255, 255, 0.123);
