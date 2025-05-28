@@ -7,9 +7,9 @@ Fonts
 Variables
 ------------------*/
 :root{
-    --main-color: #dfd1bb;
-    --blue: #007ce9;
-    --blue-dark: #ebebf8;
+    --main-color: #ff9387;
+    --blue: #ff7b30;
+    --blue-dark: #dfd1bb;
     --orange: #ffa500;
     --green-yellow: #cddc39;
     --pink-light: #241832  ;
@@ -296,7 +296,7 @@ section.fade-out{
 .bg-circles .circle-3{
     height: 120px;
     width: 120px;
-    background-color: #e46d6d;
+    background-color: #ee2e3b;
     top: 40%;
     right: -60px;
     opacity: 0.6;
@@ -305,7 +305,7 @@ section.fade-out{
 .bg-circles .circle-4{
     height: 50px;
     width: 50px;
-    background-color: #c79dff;
+    background-color: #ff7234;
     top: 80%;
     left: -30px;
     opacity: 0.6;
@@ -595,6 +595,7 @@ Home Section
 /* A propos */
 .about-img{
     width: 40%;
+    border-radius: 20px;
     padding: 0 15px;
 }       
 
@@ -607,9 +608,9 @@ Home Section
 .about-img .img-box{
     background-color: var(--white-alpha-25);
     max-width: 380px;
-    border: 1px solid var(--white-alpha-40);
+    border: 10px solid var(--white-alpha-40);
     margin: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .about-img .about-text img{
