@@ -7,14 +7,14 @@ Fonts
 Variables
 ------------------*/
 :root{
-    --main-color: #ff9387;
-    --blue: #ff7b30;
-    --blue-dark: #dfd1bb;
+    --light-salmon: #ff9387;
+    --coral: #ff7b30;
+    --wheat: #dfd1bb;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --pink-light: #241832  ;
-    --cyan-light: #761b2a  ;
-    --white: #d05e3b;
+    --deep-purple: #241832;
+    --maroon: #761b2a;
+    --chocolate: #d05e3b;
     --white-alpha-40: rgba(255, 255, 255, 0.13);
     --white-alpha-25:rgba(255, 255, 255, 0.123);
     --backdrop-filter-blur: blur(5px);
@@ -36,12 +36,12 @@ Global Settings
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
+    background-image: linear-gradient(to bottom right, var(--deep-purple), var(--maroon));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    color: var(--blue-dark);
+    color: var(--wheat);
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
@@ -160,11 +160,11 @@ section.fade-out{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: var(--white);
+    background-color: var(--chocolate);
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
 }
 
 /* Buttons */
@@ -175,7 +175,7 @@ section.fade-out{
     padding: 10px 28px;
     display: inline-block;
     border-radius: 30px;
-    color: var(--main-color);
+    color: var(--light-salmon);
     font-weight: 500;
     font-family: inherit;
     font-size: 16px;
@@ -198,7 +198,7 @@ section.fade-out{
     top: 0;
     height: 100%;
     width: 0%;
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
     z-index: -1;
     transition: width 0.3s ease;
 }
@@ -208,7 +208,7 @@ section.fade-out{
 }
 
 .btn:hover{
-    color: var(--white);
+    color: var(--chocolate);
 }
 
 /* Animation KeyFrames */
@@ -276,7 +276,7 @@ section.fade-out{
 .bg-circles .circle-1{
     height: 60px;
     width: 60px;
-    background-color: var(--blue);
+    background-color: var(--coral);
     left: 5%;
     top: 10%;
     opacity: 0.3;
@@ -360,13 +360,13 @@ section.fade-out{
 .page-loader div:nth-child(1){
     height: 60px;
     width: 60px;
-    border-color: var(--main-color);
+    border-color: var(--light-salmon);
 }
 
 .page-loader div:nth-child(2){
     height: 45px;
     width: 45px;
-    border-color: var(--blue);
+    border-color: var(--coral);
     animation-duration: 1.2s;
 }
 
@@ -423,7 +423,7 @@ section.fade-out{
  .header .nav-toggler span{
     height: 2px;
     width: 24px;
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
     position: relative;
     transition: background-color 0.3s ease;
  }
@@ -439,7 +439,7 @@ section.fade-out{
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
     transition: all 0.3s ease;
  }
 
@@ -507,7 +507,7 @@ section.fade-out{
 
  .header .nav-inner ul li a{
     font-size: 40px;
-    color: var(--blue-dark);
+    color: var(--wheat);
     display: block;
     font-weight: 500;
     padding: 8px 15px;
@@ -532,7 +532,7 @@ section.fade-out{
  }
 
  .header .nav-inner ul li a:hover{
-    color: var(--main-color);
+    color: var(--light-salmon);
  }
 
 /* ----------
@@ -652,7 +652,7 @@ Home Section
     background-color: transparent;
     border: none;
     display: inline-block;
-    color: var(--blue-dark);
+    color: var(--wheat);
     font-size: 20px;
     cursor: pointer;
     font-weight: 500;
@@ -677,7 +677,7 @@ Home Section
     bottom: 0;
     width: 0%;
     height: 1px;
-    background-color: var(--blue-dark);
+    background-color: var(--wheat);
     transition: width 0.3s ease;
 }
 
@@ -687,11 +687,11 @@ Home Section
 
 .about-tabs .tab-item.active::before{
     width: 100%;
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
 }
 
 .about-tabs .tab-item.active{
-    color: var(--main-color);
+    color: var(--light-salmon);
     opacity: 1;
     cursor: auto;
 }
@@ -707,7 +707,7 @@ Home Section
     width: 1px;
     top: 0;
     left: 5px;
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
 }
 
 .about-text .tab-content{
@@ -730,7 +730,7 @@ Home Section
     position: absolute;
     height: 11px;
     width: 11px;
-    background-color: var(--main-color);
+    background-color: var(--light-salmon);
     left: 0;
     top: 16px;
     border-radius: 50%;
@@ -742,7 +742,7 @@ Home Section
 
 .about-text .timeline-item .date{
     display: block;
-    color: var(--main-color);
+    color: var(--light-salmon);
     font-weight: 400;
     margin: 0 0 10px;
 }
@@ -895,7 +895,7 @@ Portfolio Popup
 
 .pp-body .general-info li a{
     text-transform: lowercase;
-    color: var(--main-color);
+    color: var(--light-salmon);
 }
 
 /* ---------------
@@ -913,7 +913,7 @@ Contact Section
 }
 
 .contact-form .input-control::placeholder{
-    color: var(--blue-dark);
+    color: var(--wheat);
     opacity: 0.8;
     font-weight: 300;
 }
@@ -929,7 +929,7 @@ Contact Section
     font-size: 16px;
     background-color: var(--white-alpha-25);
     padding: 0 20px;
-    color: var(--blue-dark);
+    color: var(--wheat);
     border: 1px solid transparent;
     transition: border-color 0.3s ease;
 }
@@ -966,15 +966,15 @@ Contact Section
     width: 40px;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
-    color: var(--main-color);
+    color: var(--light-salmon);
     border-radius: 50%;
     margin: 6px 4px 0 0;
     transition: all 0.3s ease;
 }
 
 .contact-info-item .social-links a:hover{
-    color: var(--white);
-    background-color: var(--main-color);
+    color: var(--chocolate);
+    background-color: var(--light-salmon);
 }
 
 /* Responsive */
