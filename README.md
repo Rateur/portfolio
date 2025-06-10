@@ -4,7 +4,7 @@ Bienvenue sur mon portfolio en ligne ! Vous pouvez le consulter à l'adresse sui
 
 ## À propos de moi
 
-Je suis Valentin Peries, un passionné d'informatique depuis 7 ans. J'ai consacré cette période au développement de mes compétences techniques à travers divers projets. Ma passion pour l'informatique m'a récemment conduit à explorer le domaine du Web design, où je combine mes compétences techniques avec ma créativité. En parallèle, je nourris une passion pour la photographie, ajoutant ainsi une dimension artistique à mon parcours. Actuellement à la recherche d'une alternance en Web design, je souhaite continuer à fusionner mes compétences techniques avec ma créativité pour créer des expériences uniques et sur mesure.
+Je suis Valentin Peries, un passionné d'informatique depuis 7 ans. J'ai consacré cette période au développement de mes compétences techniques à travers divers projets. Ma passion pour l'informatique m'a récemment conduit à explorer le domaine du développement IA, où je combine mes compétences techniques avec ma créativité. En parallèle, je nourris une passion pour la photographie, ajoutant ainsi une dimension artistique à mon parcours. Actuellement à la recherche d'une alternance en développement IA.
 
 ## Technologies utilisées
 
