@@ -22,6 +22,6 @@ Si vous souhaitez me contacter ou en savoir plus sur mes projets, n'hésitez pas
 
 * Email : valentinperies007@gmail.com
 * LinkedIn : [Mon Linkdin](https://www.linkedin.com/in/valentin-peries-4624a622a/)
-* Instagram : [Mon Instagram]([https://www.instagram.com/valentin.peries/])
+* Instagram :[Mon Instagram](https://www.instagram.com/valentin.peries/)
 
 Merci pour votre intérêt !
