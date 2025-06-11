@@ -21,6 +21,7 @@ Le formulaire de contact est intégré à l'aide de Formspree pour une gestion s
 Si vous souhaitez me contacter ou en savoir plus sur mes projets, n'hésitez pas à me joindre :
 
 * Email : valentinperies007@gmail.com
-* LinkedIn : [Votre profil LinkedIn](https://www.linkedin.com/in/valentin-peries-4624a622a/)
+* LinkedIn : [Mon Linkdin](https://www.linkedin.com/in/valentin-peries-4624a622a/)
+* Instagram : [Mon Instagram]([https://www.instagram.com/valentin.peries/])
 
 Merci pour votre intérêt !
