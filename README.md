@@ -1,4 +1,4 @@
-# Portfolio de Valentin Peries - Webdesigner
+# Portfolio de Valentin PERIES - Développeur en intelligence artificielle
 
 Bienvenue sur mon portfolio en ligne ! Vous pouvez le consulter à l'adresse suivante : [valentinperies.fr](https://valentinperies.fr).
 
