@@ -7,16 +7,16 @@ Fonts
 Variables
 ------------------*/
 :root{
-    --light-salmon: #ff9387;
-    --coral: #ff7b30;
-    --wheat: #dfd1bb;
-    --orange: #ffa500;
-    --green-yellow: #cddc39;
-    --deep-purple: #241832;
-    --maroon: #761b2a;
-    --chocolate: #d05e3b;
+    --light-salmon: #79d7f1e4;
+    --coral: #93cc55;
+    --wheat: #d1e9f3;
+    --orange: #ff0000;
+    --green-yellow: #9dc59c;
+    --deep-purple: #023875;
+    --maroon: #066486;
+    --chocolate: #00a6ff;
     --white-alpha-40: rgba(255, 255, 255, 0.13);
-    --white-alpha-25:rgba(255, 255, 255, 0.123);
+    --white-alpha-25:rgba(12, 8, 8, 0.123);
     --backdrop-filter-blur: blur(5px);
 }
 
@@ -276,7 +276,7 @@ section.fade-out{
 .bg-circles .circle-1{
     height: 60px;
     width: 60px;
-    background-color: var(--coral);
+    background-color: #aeaaf1;
     left: 5%;
     top: 10%;
     opacity: 0.3;
@@ -286,7 +286,7 @@ section.fade-out{
 .bg-circles .circle-2{
     height: 80px;
     width: 80px;
-    background-color: #e89626;
+    background-color: #bfbfbf;
     left: 30%;
     top: 50%;
     opacity: 0.4;
@@ -296,7 +296,7 @@ section.fade-out{
 .bg-circles .circle-3{
     height: 120px;
     width: 120px;
-    background-color: #ee2e3b;
+    background-color: #6a75d7;
     top: 40%;
     right: -60px;
     opacity: 0.6;
@@ -305,7 +305,7 @@ section.fade-out{
 .bg-circles .circle-4{
     height: 50px;
     width: 50px;
-    background-color: #ff7234;
+    background-color: #f8aaff;
     top: 80%;
     left: -30px;
     opacity: 0.6;
